@@ -1,0 +1,39 @@
+.card-header h2 {
+  font-size: 1.1rem;
+  white-space: nowrap;       
+  overflow: hidden;          
+  text-overflow: ellipsis;    
+  margin: 0;
+}
+
+.card {
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0px 3px 6px rgba(0,0,0,0.1); 
+}
+
+.card-body p {
+  font-size: 0.95rem;
+  color: #444;
+}
+
+.card-footer {
+  display: flex;
+  justify-content: space-between;
+  border-top: none;
+}
+
+.spiner{
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgba(255, 255, 255, 0.6)
+}
+
+#spin{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
